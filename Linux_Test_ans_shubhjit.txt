@@ -1,0 +1,116 @@
+Q1. What is mean by Version Control system?(2 Mark)
+->Any software or system that manages source code change over time is but version control system. version control also call source control.
+
+Q2. What is difference between git and gitbash?(1 Mark)
+-> Git is a version tool and gitbash is interface for window user to work on git.
+
+Q3. Why gitbash is required for winodows users but not for 
+    Linux?(2 Mark)
+
+Q4. What is difference between git and github?(1 Mark)
+-> git is version tool & git is web based code repository.
+
+Q5. Suppose, you have added new F1.txt file into working area,
+    now push that file into remote repository.(2 Mark)
+-> 1st add file in staging area : git add f1.txt
+   2nd git commit -m 'commited f1'
+   3rd git push
+
+Q6. Which command is used to clean local repository?(1 Mark)
+-> git clean
+
+Q7. Write a command to renate your local branch from master to main(1 Mark)
+-> git branch master main
+
+Q8. Write a command to configure default branch name as "main"(1 Mark)
+-> git config --global init.defaultbranch main
+
+Q9. Below is status of local repository
+    Number of Modified Files are 2
+	Number of Staged Files are 3
+	Number of commited Files are 4
+	Suppose, you execute "git push" command, how many files
+	will be push on remote repository(2 Mark)
+-> 4 files (Number of commited Files are 4)
+
+Q10.State the following statement valid or invalid.(Each Question have 1 Mark)
+	1. Linux user interact with GIT through gitbash
+        -> Invalid
+	2. git commands are case sensitive
+        -> Valid
+
+	3. git runs on Linux environment
+        -> Valid
+
+	4. gitbash display modified files "orange" color
+        -> Invalid (display modified files "RED" color)
+
+	5. ".gitignore" file itself will not be tracked by git
+        ->
+   
+	6. To rename a branch we used syntax 
+	   "git branch -m new_branch_name old_branch_name"
+         -> Valid  (git branch -m new_branch_name old_branch_name)
+
+Q11. write a git command syntax to add remote origin in local repository(1 Mark)
+->  git checkout -b branch name origin/Remote branch name
+
+Q12. What is difference between centralized version control system and distributed
+     version control system(5 mark)
+-> centralized version control :
+     1)system all version or file store at one single place.
+     2)server version control system have client-server architecture.
+     3)advantage of centralized version control system is easy to mange
+       but disadvantage is single point failure, if server is down then work is stoped.
+   
+   Distributed version control :
+     1) each client has local copy of  central repository have same source code server.
+
+
+Q13. On windows,System level configuration file present in which location?(1 Mark)
+
+Q14. Write a command to unstage a directory and delete from system.(1 Mark)
+-> rm file name
+
+Q15. We can unstage a file using "git rm" and "git restore" but When we should go 
+     with "git rm --cached" and "git restore --stage"?(2 mark)
+->
+
+Q16. write a command to list all branches?(2 mark)
+-> git branch -a
+
+Q17. What is mean by deleted files?(1 Mark)
+->
+Q18. What is mean by modified files(1 Mark)
+-> file contents are  modified after pushing it into staging area or commit area.
+
+Q19. What is use of ".gitignore" file?(1 Mark)
+->  It used to special which file and directory ignore by git.
+
+Q20. What is use of "HEAD" pointer?(1 Mark)
+->  It is always point to current branch.
+
+Q21. What is use of "FETCH_HEAD" pointer?(1 Mark)
+-> Retrieves the latest changes from remote repository.
+
+Q22. What is use of "ORIG_HEAD" pointer?((1 Mark)
+-> store commit hash of previous head before git command executed.
+
+Q23. With help of "git branch" command which operations we can perfom?(2 Mark)
+->
+Q24. With help of "git checkout" command which operations we can perfom?(2 Mark)
+->
+Q25. Repostiory specific commit history stored in which file?
+-> 
+Q26  What is use of "git diff" command? write syntax to differentiate the 
+     two commit?(1 Mark)
+-> showing different between two commit.
+
+Q27  What is use of "git stash" command? write its syntax(1 Mark)
+Q28  Write a command syntax to to configure upstream branch?
+-> git push  --set-upstream origin shubhjit
+Q29. Write a command to merge remote repository main branch changes 
+     into your local repository main branch?(1 Mark)
+Q30. state the steps to resolve the conflict?(5 Mark)
+
+	 
